@@ -1,12 +1,12 @@
 {
-  "name": "ngx-lightbox",
+  "name": "@niteshp/ngx-lightbox",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "start": "ng serve --project demo",
+    "build": "ng build --project ngx-lightbox && cp LICENSE.txt dist/ngx-lightbox/LICENSE.txt",
+    "watch": "ng build --project ngx-lightbox --watch --configuration development",
+    "test": "ng test --project ngx-lightbox"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +23,7 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~12.0.4",
     "@angular/cli": "~12.0.4",
     "@angular/compiler-cli": "~12.0.4",
     "@types/jasmine": "~3.6.0",
@@ -33,6 +34,25 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "ng-packagr": "^12.0.0",
     "typescript": "~4.2.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niteshpurohit/ngx-lightbox.git"
+  },
+  "keywords": [
+    "lightbox2",
+    "angularjs",
+    "directives",
+    "lightbox2",
+    "angular",
+    "directives"
+  ],
+  "author": "themyth92",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niteshpurohit/ngx-lightbox/issues"
+  },
+  "homepage": "https://github.com/niteshpurohit/ngx-lightbox#readme"
 }

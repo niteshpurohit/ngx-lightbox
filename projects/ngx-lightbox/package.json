@@ -1,0 +1,30 @@
+{
+  "name": "@niteshp/ngx-lightbox",
+  "version": "2.3.1",
+  "description": "A port >= angular5 for lightbox2",
+  "peerDependencies": {
+    "@angular/common": "^12.0.4",
+    "@angular/core": "^12.0.4"
+  },
+  "dependencies": {
+    "tslib": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niteshpurohit/ngx-lightbox.git"
+  },
+  "keywords": [
+    "lightbox2",
+    "angularjs",
+    "directives",
+    "lightbox2",
+    "angular",
+    "directives"
+  ],
+  "author": "themyth92",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niteshpurohit/ngx-lightbox/issues"
+  },
+  "homepage": "https://github.com/niteshpurohit/ngx-lightbox#readme"
+}
